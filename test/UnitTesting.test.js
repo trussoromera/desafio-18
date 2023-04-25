@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 
 import {strict as assert} from 'assert';
 
-mongoose.connect("mongodb+srv://martinabeauvais:Necesitas11@coderclustercomision381.asqu6kh.mongodb.net/viciouscoffeeTesting?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://tomasrusso:Necesitas11@coderclustercomision381.asqu6kh.mongodb.net/viciouscoffeeTesting?retryWrites=true&w=majority");
 const usersService = new UserDAO();
 
 describe('Tests para obtener los users de DAO',() => {
